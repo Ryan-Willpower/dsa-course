@@ -14,9 +14,6 @@ function countUniqueValues(arr) {
 
   // loop if i < arr.length - 1 && j < arr.length
   while (i < arr.length) {
-    console.log(arr[i]);
-    console.log(arr[j]);
-    console.log(arr[i] === arr[j]);
     // set flag to false
     let flag = false;
 
